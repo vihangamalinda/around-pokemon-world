@@ -49,6 +49,7 @@ body {
 
 .logo:hover {
     animation: RightToLeftFlip 1s linear;
+
 }
 
 .text-box {
@@ -57,12 +58,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     /*background-color: red;*/
+    text-align: center;
 }
 
 .heading-primary {
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
+    margin-bottom: 30px;
 }
 
 .heading-primary-main {
@@ -133,4 +136,27 @@ body {
         opacity: 1;
         transform: rotateY(0deg);
     }
+}
+
+.btn:link, .btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    color: #777777;
+    border-radius: 100px;
+    transition:all 0.2s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}
+
+.btn-white {
+    background-color: white;
 }
