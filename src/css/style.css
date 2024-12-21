@@ -49,7 +49,7 @@ body {
 
 .logo:hover {
     animation: RightToLeftFlip 1s linear;
-
+    animation-iteration-count: 1;
 }
 
 .text-box {
@@ -145,12 +145,12 @@ body {
     display: inline-block;
     color: #777777;
     border-radius: 100px;
-    transition:all 0.2s;
+    transition: all 0.2s;
 }
 
 .btn:hover {
     transform: translateY(-3px);
-    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .btn:active {
