@@ -48,7 +48,7 @@ body {
 }
 
 .logo:hover {
-    animation: RightToLeftFlip 1s ease-out;
+    animation: RightToLeftFlip 1s linear;
 }
 
 .text-box {
@@ -123,11 +123,11 @@ body {
 @keyframes RightToLeftFlip {
     0% {
         opacity: 0;
-        transform: rotateY(-180deg);
+        transform: rotateY(-90deg);
     }
     50% {
         opacity: 0.5;
-        transform: rotateY(180deg);
+        transform: rotateY(90deg);
     }
     100% {
         opacity: 1;
